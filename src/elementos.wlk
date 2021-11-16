@@ -23,7 +23,7 @@ class Llave {
 	method recoger(){
 		player.agarrarLlave()
 		game.removeVisual(self)
-		game.sound("keyPickup.mp3").play()
+		game.sound("KeyPickup.mp3").play()
 	}
 	method colisionAccion(){}
 }
