@@ -1,14 +1,21 @@
 import wollok.game.*
 import nivel1.*
+import nivel2.*
+import personajes.*
+import elementos.*
+import direcciones.*
+import paredes.*
+import utilidades.*
+import visuals.*
 
 program juego_aventura {
 
-	game.title("Oh qué aventura objetosa")
+	game.title("Skeleton Nightmare")
 	game.height(15)
 	game.width(15)
+	game.cellSize(50)
 	game.boardGround("fondoBlanco.png")
-
-	nivelBloques.configurate()	
-	
+	musica.play()
+	nivelBloques.configurate()
 	game.start()
 }
